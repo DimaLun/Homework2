@@ -219,9 +219,9 @@ int main() {
     srand(time(0));
     int uroven = 1, vybor_dveri, za_pervoy, za_vtoroy, za_tretey, vybor_personaza, povtor_urovnya = 0;
     int eto_mostr, eto_vyhod, eto_personaz, dobry_coldun, vybor_igry;
-    int otkryto1 = 1, otkryto2 = 1, otkryto3 = 1;
+    int otkryto1 = 0, otkryto2 = 0, otkryto3 = 0;
     int hod = 0, nado_vybrat, vybrano, ochenka = 0;
-    int predmet1 = 0, predmet2 = 0, predmet3 = 0, help = 0;
+    int predmet1 = 0, predmet2 = 1, predmet3 = 0, help = 0;
     int medal1 = 0, medal2 = 0, medal3 = 0;
     for (uroven; uroven <= 9; uroven++) {
         system("cls");
